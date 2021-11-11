@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Door {
+public class DoorKey {
 
     public void m1( String key) {
         class Lock {// Local Class
@@ -26,6 +26,6 @@ class DoorMain{
     public static void main(String[] args) {
         Scanner s=new Scanner(System.in);
         String key= s.next();
-        new Door().m1(key);
+        new DoorKey().m1(key);
     }
 }
